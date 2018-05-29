@@ -1,0 +1,10 @@
+<import src="card$ec48abea" />
+<template name="index$1f6bfe50">
+  <view class="_div data-v-a3b0345c">
+    <view class="_ul data-v-a3b0345c container log-list">
+      <view wx:key="index" key="{{index}}" class="_li data-v-a3b0345c log-item {{[aa ? 'red' : '']}}" wx:for="{{logs}}" wx:for-index="index" wx:for-item="log">
+        <template data="{{...$root[$kk+'0-'+index], $root}}" is="card$ec48abea"></template>
+      </view>
+    </view>
+  </view>
+</template>
